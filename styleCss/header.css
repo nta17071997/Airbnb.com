@@ -1,0 +1,178 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+*{}
+
+.solution a {
+    padding: 0 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.solution h3 {
+    padding: 25px;
+    margin: 0px;
+}
+
+.solution p {
+    padding: 0 25px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0 15px 0;
+}
+
+.header .solution {
+    width: 440px;
+    height: 220px;
+    background: white;
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+    border-radius: 5px;
+    color: #333;
+    border-top: 6px solid #ffaf0f;
+}
+
+i.fas.fa-chevron-down {
+    position: absolute;
+    bottom: 99px;
+    right: 57px;
+    font-size: 18px;
+}
+
+.reverstation button {
+    background: #ff5a5f;
+    padding: 14px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 22px;
+    margin-top: 12px;
+    margin-left: 67%;
+}
+.reverstation .check {
+    display: flex;
+    flex-direction: row;
+}
+.reverstation input {
+    margin-left: 32px;
+    padding: 12px;
+    font-size: 14px;
+    display: block;
+    position: relative;
+}
+
+.reverstation .check .right label {
+    padding-left: 0;
+}
+
+.reverstation .check .right input {
+    margin-left: 0;
+}
+
+.reverstation label {
+    padding-left: 32px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: block;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.reverstation h2 {
+    padding: 32px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.reverstation {
+    position: absolute;
+    background: white;
+    top: 140px;
+    left: 80px;
+    color: #666;
+    width: 440px;
+    height: 510px;
+    border-radius: 5px;
+}
+
+.header .oregon a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.header .oregon a:hover {
+    text-decoration: underline;
+}
+
+.header .oregon {
+    position: absolute;
+    right: 24px;
+    bottom: 26px;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu div {
+    margin-right: 25px;
+    line-height: 42px;
+    padding: 11px 0px;
+    display: inline;
+    transition: 0.4s;
+}
+ul.menu div:hover{
+	border-bottom: 2px solid white;
+}
+
+.header .head ul.menu {
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 60%;
+    height: 60%;
+    padding-top: 13px;
+    padding-left: 21px;
+}
+
+.header .head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+}
+
+.head .logo {
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    float: left;
+}
+.airbnb .header{
+	background: url(../images/bg_header.jpg);
+	width: 100%;
+	height: 950px;
+	background-size: cover;
+	position: relative;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
