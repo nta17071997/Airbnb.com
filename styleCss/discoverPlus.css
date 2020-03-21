@@ -1,0 +1,39 @@
+
+.discoverPlus  a {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+}
+
+.discoverPlus  button {
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    border: none;
+    padding: 18px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+.discoverPlus .display {
+    height: 300px;
+    background: url(../images/discover_plus.jpg);
+    position: relative;
+    width: 100%;
+}
+
+.discoverPlus p {
+    margin: 0 0 24px 0;
+}
+
+.discoverPlus h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.discoverPlus {
+    padding: 40px 80px;
+}
