@@ -1,0 +1,73 @@
+*{}
+
+.introAdventure .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.introAdventure a.title {
+    margin: 6px 0;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.introAdventure a {
+    color: #333;
+    text-decoration: none;
+}
+
+.introAdventure a.display {
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+
+.introAdventure a.person, .introAdventure a.date {
+    display: inline;
+    font-size: 16px;
+}
+
+.introAdventure a.info {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.ina.title {}
+
+.introAdventure .image {
+    background: url(../images/introAd1.webp);
+    width: 225px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.introAdventure .itemIntro {
+    width: 225px;
+    height: 420px;
+    margin-right: 16px;
+}
+
+.introAdventure .listIntro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.introAdventure p {
+    margin: 0 0 14px 0;
+}
+
+.introAdventure h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.introAdventure {
+    padding: 40px 80px;
+}
