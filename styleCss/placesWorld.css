@@ -1,0 +1,89 @@
+
+
+a.display1 {
+    padding-left: 8px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.itemPlaces p {
+    margin: 10px 0;
+}
+
+a.text {
+    text-decoration: none;
+    color: #555;
+    font-size: 17px;
+}
+
+a.country {
+    display: inline;
+    font-size: 13px;
+}
+
+.star {
+    padding: 6px 0px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.star a {
+    text-decoration: none;
+    color: #666;
+}
+
+a.rate {
+    display: inline;
+    float: right;
+}
+
+a.rate i.fas {
+    color: red;
+}
+
+
+.star a.title {
+    display: inline;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 3px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    margin-right: 6px;
+    color: #666;
+}
+
+.itemPlaces img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.itemPlaces {
+    width: 285px;
+    height: 308px;
+    margin: 8px 8px 12px;
+    box-shadow: 0 0 8px 0px #999;
+    border-radius: 10px;
+}
+
+.listPlaces {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placesWorld h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.placesWorld {
+    padding: 40px 72px;
+}
