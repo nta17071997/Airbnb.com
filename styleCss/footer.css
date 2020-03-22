@@ -1,0 +1,39 @@
+
+
+.icon {display: inline;float: right;margin: 20px 0px;}
+
+.icon i {
+    font-size: 20px;
+    margin: 0px 4px;
+}
+
+.itemFoot a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    margin: 6px 0;
+    font-size: 14px;
+    padding-right: 32px;
+}
+
+.itemFoot h3 {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.itemFoot {
+    width: 260px;
+}
+
+.listFoot {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #666;
+}
+
+.footer p {display: inline;float: left;padding-bottom: 20px;}
+
+.footer {
+    padding: 80px 150px 0;
+}
